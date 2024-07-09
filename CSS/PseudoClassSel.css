@@ -1,0 +1,201 @@
+:root{
+    --commonColor:rgb(227, 105, 8);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.main-block{
+  height: 900px;
+  width:90%;
+  /* border: 1px s  olid; */
+  margin: auto;
+  margin-top:50px;
+  display: flex;
+}
+.main-block .logo{
+ height: 800px;
+ width: 40%;
+ /* border: 2px solid blue; */
+}
+.main-block .form{
+    height: 800px;
+    width: 60%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-block .logo>img{
+    margin-top:90px;
+    height: 600px;
+}
+.main-block .form form>fieldset{
+    height: 600px;
+    width:700px;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column ;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(13, 13, 13);
+
+}
+.main-block .form form>fieldset>legend{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(227, 105, 8);
+    margin-left: 20px;
+    padding: 10px;
+}
+
+form .details,.mail,.feedback,.skill,.submit{
+    height: 100px;
+    /* border: 3px solid green; */
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+form .details>.name>label{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 6px;
+}
+form .details>.name>input{
+   height: 40px;
+   width: 100%;
+   text-align: center;
+   outline: none;
+   border: none;
+   border-bottom: 5px solid var(--commonColor) ;
+   font-size: 21px;
+   color: var(--commonColor);
+   margin-top: 20px;
+   
+}
+form .details>.code>label{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+form .details>.code>input{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+   border-bottom: 5px solid var(--commonColor) ;
+   font-size: 21px;
+   color: var(--commonColor);
+
+}
+form .details>.name{
+    height: 80px;
+    width: 40%;
+    /* border: 2px solid red; */   
+}
+form .details>.code{
+    height: 80px;
+    width: 40%;
+    /* border: 2px solid red; */
+}
+form .mail>input{
+    height: 40px;
+    width: 85%;
+    border: none;
+    border-bottom: 5px solid var(--commonColor);
+    outline: none;
+    font-size: 21PX;
+    color: var(--commonColor);
+}
+ form .feedback>textarea{
+    max-height: 100%;
+    max-width: 85%;
+    min-height: 100%;
+    min-width: 85%;
+    outline: none;
+    border: none;
+    border-bottom: 5px solid var(--commonColor);
+    font-size: 21px;
+    color: var(--commonColor);
+ }
+ form .feedback>textarea::placeholder{
+    text-align: center;
+    font-size: 21px;
+    color: var(--commonColor);
+    padding-top: 25px;
+ }
+
+form ::placeholder{
+    text-align: center;
+    font-size: 21px;
+    color: var(--commonColor);
+    padding-top: 25px;
+}
+
+form .skill{
+    color: var(--commonColor);
+
+}
+
+form .skill>input:checked{
+    accent-color: black;
+    outline: 5px solid var(--commonColor);
+}
+
+form .submit>input{
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    height: 55PX;
+    width: 140PX;
+    color: var(--commonColor);
+    box-shadow:7PX 5PX 4PX var(--commonColor);
+    border-radius:8px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+   }
+
+   form h6{
+    color: var(--commonColor);
+    padding: 30px;
+    font-size: 18px;
+   }
+   form h6>a{
+    text-decoration: none;
+    color: white;
+   }
+
+   form h6>a:visited{
+    color: white;
+   }
+   form h6>a:active{
+     color: goldenrod;
+
+   }
+   form .submit>input:hover{
+    background-color: var(--commonColor);
+    color: black;
+    box-shadow: 7px 8px 4px rgb(72, 62, 62);
+   }
+   
+   form input:focus{
+    background-color: rgb(216, 200, 171);
+    color: black;
+   }
+   form .details>.code>input:focus{
+    color:black;
+   }
+   form .details>.name>input:focus{
+    color:black;
+   }
+
+   form textarea:focus{
+    color: black;
+   }

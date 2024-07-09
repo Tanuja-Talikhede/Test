@@ -1,0 +1,19 @@
+.container{
+    height: 600px;
+    width: 400px;
+    border: 1px solid;
+    margin: auto;
+    background-color: skyblue;
+    border-radius: 20px;
+}
+.img{
+    height: 250px;
+    width: 200px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.content{
+    padding: 30px;
+}

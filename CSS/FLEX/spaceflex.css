@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid;
+    display: flex;
+    
+}
+.content{
+    height: 100vh;
+    width: 50vw;
+    border: 1px solid;
+}
+.img{
+    height: 100vh;
+    width: 50vw;
+    border: 5px solid green;
+}
+.content>div{
+    margin-top: 300px;
+}

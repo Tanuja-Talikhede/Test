@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Main-navblock{
+    background-color:rgb(84, 116, 198);
+    height: 60px;
+}
+.links>a{
+    text-decoration:none;
+    font-weight: 900;
+    font-size: 32px;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+.links button{
+    /* background-color: yellow; */
+    color: white;
+    font-size: 30px;
+    font-weight: 600px;
+    border: none;
+    padding:8px 10px ;
+    border-radius:5px;
+}
+a+button{
+    margin-left:550px;
+    margin-top:7px;
+    background-color:rgb(41, 39, 39);
+}
+a+button+button{
+    background-color: rgb(43, 72, 61);
+    
+}
+a~a{
+    color:black;
+}

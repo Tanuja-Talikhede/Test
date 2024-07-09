@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+  
+}
+@font-face {
+    font-family:"my_font";
+    src: url(../Selectors/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family:"my_font300";
+    src: url(../Selectors/Manrope-Light.ttf);
+}
+
+
+.main {
+    height: 520px;
+    width: 350px;
+    background-color:rgb(31, 30, 30);
+    margin: 100px auto;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 800;
+    border-radius: 10px;
+    
+   
+
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+#name {
+    font-family: sans-serif;
+    font-size: 29px;
+    color: azure;
+    text-align: center;
+}
+
+#loc{
+    text-align: center;
+    color:rgb(157,179,72);
+    /* font-family: sans-serif; */
+    font-family:"my_font";
+
+}
+#box1{
+    height:30px;
+    width: 300px;
+    background-color: rgb(87, 86, 86);
+    margin-left: 25px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:"my_font";
+}
+#box2,#box3,#box4,#box5{
+    height:30px;
+    width: 300px;
+    background-color:  rgb(87, 86, 86);
+    margin-left: 25px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:"my_font";
+    
+}
+#des{
+    margin-top: 15px;
+    font-family:"my_font300";
+   
+}

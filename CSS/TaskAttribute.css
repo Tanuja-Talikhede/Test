@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div[class="main-block"]{
+    height:700px;
+    width: 1000px;
+    border: 3px solid #e5e7eb;
+    display: flex;    
+    margin: auto;    
+}
+
+.first-block{
+    width:250px;
+    height: 700px;
+    padding-right:25px;
+    align-items: start;
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+    padding: 3vh 0 3vh 30;
+    background-color:rgb(17,24,39);
+    color: aliceblue;
+ }
+
+#second-block input{
+    width: 500px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+a[href]{
+    text-decoration: none;
+}
+#tailwindimg{
+    height: 5vh;
+    width: 5vw;
+}
+
+#Container{
+    height: 600px;
+    width: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin-left: 0.9vw;
+}
+
+#icon11{
+    margin-left: 0.9vw;
+    
+}
+
+.fa-solid{
+    margin-right: 10px;
+    color: aliceblue;
+}
+a{
+    color: white;
+}
+
+#blank{
+    width: 750px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    height: 600px;
+    width: 700px;   
+}
+
+#navParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    border-bottom: solid #e5e7eb;
+}
+
+.fa-magnifying-glass{
+    padding-top: 5PX;
+    padding-left: 15PX;
+    color: rgb(146, 146, 146);
+
+}
